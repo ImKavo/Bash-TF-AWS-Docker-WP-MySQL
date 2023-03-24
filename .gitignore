@@ -3,4 +3,3 @@ tf_key.pem
 .terraform/
 .terraform.lock.hcl
 output.txt
-README.md
