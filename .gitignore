@@ -1,2 +1,5 @@
 tf_key.pem
 .DS_Store
+.terraform/
+.terraform.lock.hcl
+output.txt

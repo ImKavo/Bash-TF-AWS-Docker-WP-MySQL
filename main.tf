@@ -6,7 +6,7 @@ provider "aws" {
 # Remote state setup
 terraform {
     backend "s3" {
-        bucket = "your_bucket_name"
+        bucket = "maksym-ivanov-tf-rs-bucket"
         key    = "dev/terraform.tfstate"
         region = "eu-central-1"
     }
