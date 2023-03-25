@@ -3,3 +3,4 @@ tf_key.pem
 .terraform/
 .terraform.lock.hcl
 output.txt
+test_script.sh

@@ -28,7 +28,7 @@ sudo apt-get install lsb-release
 sudo snap install docker
 EOF
     tags = {
-        Name    = "Instance build by Terraform"
+        Name    = "Instance-build-by-Terraform"
         Owner   = "Maksym Ivanov"
         Project = "Terraform+EC2+Docker"
     }
@@ -36,7 +36,7 @@ EOF
 
 # Security Group setup
 resource "aws_security_group" "tf_built_sg" {
-    name        = "TF Security group"
+    name        = "TF-Security-group"
     description = "Security group build by Terraform"
     vpc_id      = aws_vpc.tf_vpc.id
 

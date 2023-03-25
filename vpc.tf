@@ -2,7 +2,7 @@ resource "aws_vpc" "tf_vpc" {
     cidr_block           = "10.0.0.0/16"
     enable_dns_hostnames = true
     tags = {
-        Name = "Terraform created VPC"
+        Name = "Terraform-created-VPC"
   }
 }
 
@@ -11,7 +11,7 @@ resource "aws_subnet" "public_subnet" {
     cidr_block        = "10.0.1.0/24"
     availability_zone = "eu-central-1a"
     tags = {
-        Name = "public-subnet by Terraform"
+        Name = "public-subnet-by-Terraform"
   }
 }
 
@@ -20,7 +20,7 @@ resource "aws_subnet" "private_subnet" {
     cidr_block        = "10.0.2.0/24"
     availability_zone = "eu-central-1a"
     tags = {
-        Name = "private-subnet by Terraform"
+        Name = "private-subnet-by-Terraform"
   }
 }
 
