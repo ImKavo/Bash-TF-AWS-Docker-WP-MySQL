@@ -23,7 +23,7 @@ echo -e "\nWaiting for scp command to execute ...\n"
 sleep 12
 
 echo -e "\nCopying Docker folder...\n"
-scp -r -i ~/dev_folder/test_task_tf/tf_key.pem ~/dev_folder/test_task_tf/docker_dir ubuntu@$public_dns_name:~/
+scp -r -i ~/path/to/my_key.pem ~/path/to/docker_dir ubuntu@$public_dns_name:~/ # <- Change the path to your existing AWS keypair and path to downloaded docker_dir
 
 echo -e "\nWaiting for docker-compose up to execute ...\n"
 sleep 6
